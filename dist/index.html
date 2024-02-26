@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ming's ToDo List</title>
+</head>
+
+<body>
+    <nav>
+        <h1>Logo</h1>
+        
+        <section class="sidebar">
+            <button>Today</button>
+            <button>Week</button>
+            <button>Month</button>
+        </section>
+
+        <section class="sidebar">
+            Projects
+        </section>
+    </nav>
+    <main>
+        <h2>ToDo</h2>
+        <div id="content">
+
+        </div>
+        <section class="addTaskSection">
+            <button class = "addTask">Add Task</button>
+            <div action="" id = "addTaskForm">
+                <form>
+                    <label for = "taskName"></label>
+                    <input name = "taskName" type="text" id ="taskName" placeholder="Task">
+                    <label for = "description"></label>
+                    <input name = "description" id = "description" type="text" placeholder="Description">
+                    <label for = "date"></label>
+                    <input name = "date" id ="date" type="date">
+                    <label for = "project"></label>
+                    <input name = "project" id = "project" type="text">
+                    <label for = "priority"></label>
+                    <input name = "priority" id = "priority"  type="text">
+                    <button type="button">Cancel</button>
+                    <button type="submit" id="submitForm">Add Task</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="bundle.js"></script>
+
+</html>

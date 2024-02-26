@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+}
+nav {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 400px;
+    background-color: darkred;
+    color: white;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.addTaskSection{
+    margin: 30px;
+}
+#addTaskForm{
+    visibility: visible;
+}
