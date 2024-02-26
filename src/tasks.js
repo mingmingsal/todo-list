@@ -7,7 +7,7 @@ class Card {
         this._name = name;
         this._description = description;
         this._dueDate = dueDate;
-        this._project = project;
+        this._project = project.toUpperCase();
         this._priority = priority;
         createdCard(this);
     }
